@@ -11,4 +11,7 @@
 10. A function that returns a key with the biggest integer value.
 11. A function that returns a list with all values multiplied by a number without using any loops.
 12. A function def roman_to_int(roman_string): that converts a Roman numeral to an integer.
-13. A 
+13. A function that returns the weighted average of all integers tuple (<score>, <weight>)
+14. A function that computes the square value of all integers of a matrix using map
+15. A function that deletes keys with a specific value in a dictionary.
+16. Two C functions that print some basic info about Python lists and Python bytes objects. 
