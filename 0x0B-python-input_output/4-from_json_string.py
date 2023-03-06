@@ -1,6 +1,18 @@
 #!/usr/bin/python3
+"""Module 4-from_json_string.
+Returns an object (Python data structure)
+represented by a JSON string.
+"""
 
 
-def append_write(filename="", text=""):
-    with open(filename, "a", encoding="utf-8") as f:
-        return f.write(text)
+import json
+
+
+def from_json_string(my_str):
+    """Return the object represented my my_str.
+    Args:
+        - my_str: JSON string representation
+    Returns: corresponding object
+    """
+
+    return json.loads(my_str)
