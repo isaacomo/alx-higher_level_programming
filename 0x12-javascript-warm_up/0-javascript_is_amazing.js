@@ -1,5 +1,5 @@
 #!/usr/bin/node
-/*
+/**
  * Print string “Javascript is amazing”
  */
 
